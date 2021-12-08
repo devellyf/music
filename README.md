@@ -1,2 +1,2 @@
 ### DEPLOY TO HEROKU
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/muhammadrizky16/KyyMusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Skyzu/music)
