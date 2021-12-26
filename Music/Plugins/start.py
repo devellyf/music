@@ -75,9 +75,9 @@ async def welcome(_, message: Message):
                 out = start_pannel()
                 await message.reply_text(
                     f"""
-👋 ** Halo senang rasanya bisa bergabung di grup ini**
+👋 ** Hello Thanks Add me Your chat**
 
-💡 **Jangan lupa untuk menjadikan saya sebagai admin di grup ini**
+💡 **Make me admin here ♦️**
 """,
                     reply_markup=InlineKeyboardMarkup(out[1]),
                     disable_web_page_preview=True
