@@ -25,15 +25,15 @@ from pyrogram.types import (
 def start_pannel():
     buttons = [
         [
-            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ​", url="https://t.me/skyzusupport"),
-            InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ProjectSkyzu"),
+            InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ📮", url="https://t.me/Shykillersupportchat"),
+            InlineKeyboardButton(text="📮ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Shykillersupportchat"),
         ],
-        [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ​ 📚", url="https://telegra.ph/ҡʏʏᵠˣʸᵒ-12-04"),
+        
+            InlineKeyboardButton("📗ᴄᴏᴍᴍᴀɴᴅ📗", url="http://telegra.ph/𝐔𝐬𝐞𝐫𝐬-𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬-11-30"),
         ],
     ]
     return (
-        "🎛 **{BOT_NAME} Merupakan salah satu dari bot telegram yang bisa memutar musik di grup**",
+        "🎛 **{BOT_NAME} 𝐈'𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐀𝐮𝐝𝐢𝐨 𝐖𝐢𝐭𝐡 𝐒𝐨𝐦𝐞 𝐔𝐬𝐞𝐟𝐮𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 **",
         buttons,
     )
 
@@ -45,11 +45,11 @@ pstart_markup = InlineKeyboardMarkup(
                 "➕ ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ᴛᴏ ɢʀᴏᴜᴘ​ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"),
         ],
         [
-            InlineKeyboardButton(text="✨ sᴜᴘᴘᴏʀᴛ​", url="https://t.me/skyzusupport"),
-            InlineKeyboardButton("✨ ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/ProjectSkyzu"),
+            InlineKeyboardButton(text="💾 sᴜᴘᴘᴏʀᴛ​", url="https://t.me/Shykillersupportchat"),
+            InlineKeyboardButton("💾 ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/Shykillersupportchat"),
         ],
         [
-            InlineKeyboardButton("📚 ᴄᴏᴍᴍᴀɴᴅ ​📚", url="https://telegra.ph/ҡʏʏᵠˣʸᵒ-12-04"),
+            InlineKeyboardButton("📗ᴄᴏᴍᴍᴀɴᴅ📗", url="http://telegra.ph/𝐔𝐬𝐞𝐫𝐬-𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬-11-30"),
         ],
     ]
 )
@@ -98,10 +98,10 @@ async def start(_, message: Message):
     out = start_pannel()
     await message.reply_text(
         f"""
-Terima kasih telah memasukkan saya di {message.chat.title}.
-Musik itu hidup.
+ 𝐈'𝐦 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭 𝐀𝐮𝐝𝐢𝐨 𝐖𝐢𝐭𝐡 𝐒𝐨𝐦𝐞 𝐔𝐬𝐞𝐟𝐮𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 {message.chat.title}.
+.
 
-Untuk bantuan silahkan klik tombol dibawah.
+.
 """,
         reply_markup=InlineKeyboardMarkup(out[1]),
         disable_web_page_preview=True
